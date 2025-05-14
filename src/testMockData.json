@@ -1,0 +1,4908 @@
+[
+  {
+    "team": "devsync",
+    "env": "dev",
+    "build_id": "19",
+    "test_id": "TC-6426",
+    "test_name": "Form Validation and Submission",
+    "description": "Testing error handling mechanisms and log generation",
+    "priority": "p4",
+    "suite": ["nightly"],
+    "coverage": [],
+    "start_time": "2025-05-06T17:20:22.000Z",
+    "end_time": "2025-05-06T17:21:36.000Z",
+    "duration": "1m 14sec",
+    "status": "failed",
+    "status_history": [
+      {
+        "build": 17,
+        "status": "failed"
+      },
+      {
+        "build": 18,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      }
+    ],
+    "failed_step": "Stage: authoring - Step: Execute Instructions",
+    "error_message": "Form submission failed: Network timeout",
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Verification failed: Expected data not found",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Form submission failed: Network timeout",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Verification failed: Expected data not found",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 4,
+    "links": {
+      "kane_overwatch_url": "https://dev-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=2fd19076-5f27-4183-abff-17dc34efe912&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=BVNM7-ZXCVB-QAZWS-RFVTG",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=8ab8c837-e781-4216-b782-e178e96a32ec&stageId=0532ec3b-92d4-4a79-94a4-ab52993b0e56&taskId=d119aad0-591e-4266-8dae-9f9628ee6867"
+    }
+  },
+  {
+    "team": "qatech",
+    "env": "dev",
+    "build_id": "19",
+    "test_id": "TC-7392",
+    "test_name": "Security and Vulnerability Check",
+    "description": "Testing application compatibility across multiple browsers",
+    "priority": "p3",
+    "suite": ["full"],
+    "coverage": [],
+    "start_time": "2025-05-07T08:21:44.000Z",
+    "end_time": "2025-05-07T08:23:13.000Z",
+    "duration": "1m 29sec",
+    "status": "aborted",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "9sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "replay"
+          },
+          {
+            "status": "passed",
+            "duration": "28sec",
+            "step_name": "Rerun test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "93sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "15sec",
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "resume"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Timeout exceeded: Element not found within 30 seconds",
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "passed",
+        "duration": "11sec",
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 1,
+    "links": {
+      "kane_overwatch_url": "https://dev-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=568aa405-f7f5-41d1-81fb-f3408b622418&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=TYUP9-ZXCVB-DFGHJ-RFVTG",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=495c0878-5734-40ad-abac-c121d4e31c05&stageId=8d006d57-8449-4bf7-9446-0be40a9e876e&taskId=7d258a1c-8315-4247-89e5-893c539acb77"
+    }
+  },
+  {
+    "team": "teststorm",
+    "env": "stage",
+    "build_id": "19",
+    "test_id": "TC-1500",
+    "test_name": "File Upload Functionality Test",
+    "description": "Testing form validation rules and submission workflow",
+    "priority": "p4",
+    "suite": ["nightly"],
+    "coverage": [],
+    "start_time": "2025-05-05T02:58:08.000Z",
+    "end_time": "2025-05-05T03:02:19.000Z",
+    "duration": "4m 11sec",
+    "status": "failed",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "skipped"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      }
+    ],
+    "failed_step": "Stage: authoring - Step: Execute Instructions",
+    "error_message": "Verification failed: Expected data not found",
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Verification failed: Expected data not found",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Data validation error: Required field missing",
+            "step_description": "resume"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Data validation error: Required field missing",
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 2,
+    "links": {
+      "kane_overwatch_url": "https://stage-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=70deab80-122a-48b6-bdef-cd33a9c225c1&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=UJSG3-WFPGE-QAZWS-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=1786c16d-f454-415d-81bd-ae9a2f0b6f72&stageId=2bfbf85c-e84b-4ce3-b925-4784524b4ec7&taskId=bc6d6977-f6bc-495e-9add-ba99855cae82"
+    }
+  },
+  {
+    "team": "qatech",
+    "env": "prod",
+    "build_id": "19",
+    "test_id": "TC-6047",
+    "test_name": "Web | Smart Wait for UI Actions and Operations",
+    "description": "Ensuring dashboard displays accurate real-time data",
+    "priority": "p1",
+    "suite": ["full", "nightly"],
+    "coverage": [],
+    "start_time": "2025-05-08T19:10:47.000Z",
+    "end_time": "2025-05-08T19:15:18.000Z",
+    "duration": "4m 31sec",
+    "status": "failed",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "skipped"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      }
+    ],
+    "failed_step": "Stage: authoring - Step: Execute Instructions",
+    "error_message": "Authentication failed: Token expired",
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Authentication failed: Token expired",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+            "step_description": "resume"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Element not clickable: Element is overlapped by another element",
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 0,
+    "links": {
+      "kane_overwatch_url": "https://prod-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=cb5f171f-29b7-4c6c-8fa8-528a710c3563&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=FKDL2-LKJHG-QAZWS-RFVTG",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=a4d169fb-9613-4b2f-ae74-a880cf470831&stageId=7fe5c47a-091d-4bc3-bd21-4c8393ba2e78&taskId=ef98b093-8750-482a-98eb-dfb1d181628f"
+    }
+  },
+  {
+    "team": "teststorm",
+    "env": "stage",
+    "build_id": "19",
+    "test_id": "TC-7713",
+    "test_name": "Database Connection Validation",
+    "description": "Checking database connectivity and transaction integrity",
+    "priority": "p3",
+    "suite": ["smoke", "sanity"],
+    "coverage": [],
+    "start_time": "2025-05-05T05:27:31.000Z",
+    "end_time": "2025-05-05T05:30:57.000Z",
+    "duration": "3m 26sec",
+    "status": "failed",
+    "status_history": [
+      {
+        "build": 17,
+        "status": "passed"
+      },
+      {
+        "build": 18,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      }
+    ],
+    "failed_step": "Stage: authoring - Step: Execute Instructions",
+    "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Navigation error: Page not found",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Navigation error: Page not found",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 4,
+    "links": {
+      "kane_overwatch_url": "https://stage-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=14d2bd1f-45d3-4ec8-8ebc-dd205e8da27f&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=TYUP9-QWERT-P5BLG-XEDC4",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=19aa71a7-8129-4b20-b066-f2a54675f66a&stageId=653955d5-bcb0-4494-8af3-79ee15019252&taskId=1e9f9e52-28c9-496f-8771-34905fa95421"
+    }
+  },
+  {
+    "team": "betabots",
+    "env": "dev",
+    "build_id": "19",
+    "test_id": "TC-9619",
+    "test_name": "Session Management Verification",
+    "description": "Validating system performance under simulated load",
+    "priority": "p1",
+    "suite": ["regression"],
+    "coverage": [],
+    "start_time": "2025-05-06T05:22:14.000Z",
+    "end_time": "2025-05-06T05:26:49.000Z",
+    "duration": "4m 35sec",
+    "status": "failed",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      }
+    ],
+    "failed_step": "Stage: authoring - Step: Execute Instructions",
+    "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Navigation error: Page not found",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Form submission failed: Network timeout",
+            "step_description": "resume"
+          },
+          {
+            "status": "passed",
+            "duration": "28sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 0,
+    "links": {
+      "kane_overwatch_url": "https://dev-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=6757ef07-33b1-445f-b30b-b620ae4f6b1f&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=FKDL2-QWERT-QAZWS-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=e8711943-c4a5-4f92-a42b-6227b8140dea&stageId=0403b01c-9312-404d-8c18-c1d2705b5234&taskId=beaa73e6-b894-4850-9a70-a1138e9a54ca"
+    }
+  },
+  {
+    "team": "teststorm",
+    "env": "qa",
+    "build_id": "19",
+    "test_id": "TC-1231",
+    "test_name": "Performance Under Load Test",
+    "description": "Verifying session persistence and timeout behavior",
+    "priority": "p2",
+    "suite": ["full", "smoke"],
+    "coverage": [],
+    "start_time": "2025-05-07T05:52:46.000Z",
+    "end_time": "2025-05-07T05:56:13.000Z",
+    "duration": "3m 27sec",
+    "status": "failed",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      }
+    ],
+    "failed_step": "Stage: authoring - Step: Execute Instructions",
+    "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Navigation error: Page not found",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 0,
+    "links": {
+      "kane_overwatch_url": "https://qa-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=b2c59e86-6879-4965-993d-81f6108d5c85&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=FKDL2-LKJHG-P5BLG-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=c3f2f671-575f-4cef-b39f-4c1c57ca2286&stageId=79fc7e1f-b672-449a-aecf-98fb484b0f11&taskId=c4244971-3916-45ba-bf56-71d34d48343e"
+    }
+  },
+  {
+    "team": "alphacrew",
+    "env": "qa",
+    "build_id": "19",
+    "test_id": "TC-3863",
+    "test_name": "Mobile Responsive Design Check",
+    "description": "Validating complete purchase flow from cart to confirmation",
+    "priority": "p4",
+    "suite": ["full"],
+    "coverage": [],
+    "start_time": "2025-05-02T11:46:57.000Z",
+    "end_time": "2025-05-02T11:48:21.000Z",
+    "duration": "1m 24sec",
+    "status": "passed",
+    "status_history": [
+      {
+        "build": 18,
+        "status": "skipped"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      },
+      {
+        "build": 19,
+        "status": "passed"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "21sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "passed",
+            "duration": "11sec",
+            "step_name": "Replay test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "72sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "10sec",
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "resume"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Timeout exceeded: Element not found within 30 seconds",
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "passed",
+        "duration": "52sec",
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 3,
+    "links": {
+      "kane_overwatch_url": "https://qa-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=70a68f4d-b729-4f5d-8f7b-e6487ebf4482&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=BVNM7-QWERT-QAZWS-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=99449eda-8b0d-485c-ac19-dd0493a2d884&stageId=d84b9c2f-69e5-4d1d-8304-0832f6a3ec04&taskId=8eebaa4f-f253-4345-bd2a-cb29ffb313e4"
+    }
+  },
+  {
+    "team": "qatech",
+    "env": "prod",
+    "build_id": "19",
+    "test_id": "TC-7414",
+    "test_name": "Session Management Verification",
+    "description": "Validating user permissions and access controls",
+    "priority": "p1",
+    "suite": ["sanity"],
+    "coverage": [],
+    "start_time": "2025-05-04T10:31:51.000Z",
+    "end_time": "2025-05-04T10:34:47.000Z",
+    "duration": "2m 56sec",
+    "status": "aborted",
+    "status_history": [
+      {
+        "build": 18,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Verification failed: Expected data not found",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "resume"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 3,
+    "links": {
+      "kane_overwatch_url": "https://prod-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=b8bbff3f-63a1-4977-9406-8b03753e691b&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=TYUP9-QWERT-MNBVC-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=e45f16b8-75ca-4095-8434-9b898a7da389&stageId=32781705-6663-4eed-803e-944dabdd1dfb&taskId=85566cd2-f798-4497-9533-8891b6cab627"
+    }
+  },
+  {
+    "team": "kaneai",
+    "env": "prod",
+    "build_id": "19",
+    "test_id": "TC-6008",
+    "test_name": "Dashboard Data Integrity Check",
+    "description": "Checking for security vulnerabilities and proper encryption",
+    "priority": "p2",
+    "suite": ["smoke"],
+    "coverage": [],
+    "start_time": "2025-05-02T08:07:26.000Z",
+    "end_time": "2025-05-02T08:12:20.000Z",
+    "duration": "4m 54sec",
+    "status": "skipped",
+    "status_history": [
+      {
+        "build": 18,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "24sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "98sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Data validation error: Required field missing",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": "Navigation error: Page not found",
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 2,
+    "links": {
+      "kane_overwatch_url": "https://prod-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=0891fc33-7a58-4742-af74-16d286f6a490&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=BVNM7-LKJHG-DFGHJ-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=72cc2fc3-926f-4897-bd8a-99386551a28a&stageId=2f187901-7869-422b-a862-65cf2ab1289f&taskId=ca2606c7-4fe4-4d7d-9b19-f0c39cb2d302"
+    }
+  },
+  {
+    "team": "teststorm",
+    "env": "dev",
+    "build_id": "19",
+    "test_id": "TC-1421",
+    "test_name": "Login Flow Validation Test",
+    "description": "Validating complete purchase flow from cart to confirmation",
+    "priority": "p3",
+    "suite": ["full"],
+    "coverage": [],
+    "start_time": "2025-05-10T06:39:34.000Z",
+    "end_time": "2025-05-10T06:41:31.000Z",
+    "duration": "1m 57sec",
+    "status": "failed",
+    "status_history": [
+      {
+        "build": 17,
+        "status": "passed"
+      },
+      {
+        "build": 18,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      }
+    ],
+    "failed_step": "Stage: authoring - Step: Execute Instructions",
+    "error_message": "Login failed: Invalid credentials provided",
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Verification failed: Expected data not found",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Login failed: Invalid credentials provided",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Verification failed: Expected data not found",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 0,
+    "links": {
+      "kane_overwatch_url": "https://dev-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=76c537de-fdc5-4d7b-818a-9e1cd16f08cf&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=UJSG3-LKJHG-QAZWS-RFVTG",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=05a4ce94-54ed-4f78-996b-9bca8b12edd1&stageId=50e1bdcf-5f03-4e20-bdb2-5121c2522247&taskId=a3e104de-5422-4a43-be06-2dfdf4d70821"
+    }
+  },
+  {
+    "team": "teststorm",
+    "env": "dev",
+    "build_id": "19",
+    "test_id": "TC-1041",
+    "test_name": "Database Connection Validation",
+    "description": "Testing form validation rules and submission workflow",
+    "priority": "p1",
+    "suite": ["sanity"],
+    "coverage": [],
+    "start_time": "2025-05-04T03:55:08.000Z",
+    "end_time": "2025-05-04T03:57:42.000Z",
+    "duration": "2m 34sec",
+    "status": "passed",
+    "status_history": [
+      {
+        "build": 17,
+        "status": "skipped"
+      },
+      {
+        "build": 18,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "passed"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "26sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": null,
+            "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+            "step_description": "replay"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": null,
+            "error_message": "Login failed: Invalid credentials provided",
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "46sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": "Data validation error: Required field missing",
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 2,
+    "links": {
+      "kane_overwatch_url": "https://dev-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=060b4e4e-5bf4-4278-b49b-184bdabce7f8&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=BVNM7-ZXCVB-QAZWS-RFVTG",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=babd754a-3e71-465e-aa1e-388691b254ec&stageId=3c1c4f55-9162-451b-b2a0-d9650d0e686b&taskId=25a520bf-5261-4d71-bb99-116e43541b77"
+    }
+  },
+  {
+    "team": "qatech",
+    "env": "qa",
+    "build_id": "19",
+    "test_id": "TC-1309",
+    "test_name": "Dashboard Data Integrity Check",
+    "description": "Verifying that the smart wait is working for UI actions and operations",
+    "priority": "p2",
+    "suite": ["sanity"],
+    "coverage": [],
+    "start_time": "2025-05-03T11:19:35.000Z",
+    "end_time": "2025-05-03T11:22:25.000Z",
+    "duration": "2m 50sec",
+    "status": "passed",
+    "status_history": [
+      {
+        "build": 18,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      },
+      {
+        "build": 19,
+        "status": "passed"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "2sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": null,
+            "error_message": "Element not clickable: Element is overlapped by another element",
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "34sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "7sec",
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "resume"
+          },
+          {
+            "status": "passed",
+            "duration": "13sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "passed",
+        "duration": "113sec",
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 4,
+    "links": {
+      "kane_overwatch_url": "https://qa-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=d60f5c2a-0572-4b34-87d9-5101f2ef72e7&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=BVNM7-WFPGE-P5BLG-RFVTG",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=9a8e32e7-d1f9-4d3a-a6f0-e3fd0c0c7329&stageId=17ddd761-369f-452f-8bfe-74a5059bd3a3&taskId=c3a45fdd-3772-47ea-988b-e68afb33c92b"
+    }
+  },
+  {
+    "team": "teststorm",
+    "env": "qa",
+    "build_id": "19",
+    "test_id": "TC-6537",
+    "test_name": "File Upload Functionality Test",
+    "description": "Testing file upload with various file types and sizes",
+    "priority": "p3",
+    "suite": ["smoke", "sanity"],
+    "coverage": [],
+    "start_time": "2025-05-07T21:33:24.000Z",
+    "end_time": "2025-05-07T21:35:53.000Z",
+    "duration": "2m 29sec",
+    "status": "failed",
+    "status_history": [
+      {
+        "build": 18,
+        "status": "aborted"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      }
+    ],
+    "failed_step": "Stage: authoring - Step: Execute Instructions",
+    "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Element not clickable: Element is overlapped by another element",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "resume"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 1,
+    "links": {
+      "kane_overwatch_url": "https://qa-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=ecd1491b-a964-4556-b0dd-5a5f114b90b5&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=FKDL2-QWERT-P5BLG-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=4e59ee23-32e2-4d44-85a3-3b5c9d35f93b&stageId=01c52503-4b8e-4e49-8a28-559c781ea3a8&taskId=44c52093-2242-4637-a030-7079e85288c0"
+    }
+  },
+  {
+    "team": "kaneai",
+    "env": "stage",
+    "build_id": "19",
+    "test_id": "TC-1525",
+    "test_name": "Form Validation and Submission",
+    "description": "Testing file upload with various file types and sizes",
+    "priority": "p1",
+    "suite": ["sanity", "nightly", "full"],
+    "coverage": [],
+    "start_time": "2025-05-05T21:18:21.000Z",
+    "end_time": "2025-05-05T21:20:44.000Z",
+    "duration": "2m 23sec",
+    "status": "aborted",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "skipped"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "29sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "67sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "4sec",
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "resume"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Timeout exceeded: Element not found within 30 seconds",
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "passed",
+        "duration": "24sec",
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 4,
+    "links": {
+      "kane_overwatch_url": "https://stage-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=2912c378-e854-4355-a170-2d2f5e85cc89&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=BVNM7-WFPGE-QAZWS-NHYUJ",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=46416da5-406b-462f-bf98-c84d29041ed5&stageId=b3ae43e5-d9de-4a07-b7ec-6467cd385c29&taskId=231da743-db69-4c9a-8a1d-88e81b284296"
+    }
+  },
+  {
+    "team": "qatech",
+    "env": "qa",
+    "build_id": "19",
+    "test_id": "TC-5289",
+    "test_name": "Form Validation and Submission",
+    "description": "Testing form validation rules and submission workflow",
+    "priority": "p1",
+    "suite": ["nightly", "full"],
+    "coverage": [],
+    "start_time": "2025-05-02T13:55:47.000Z",
+    "end_time": "2025-05-02T13:59:32.000Z",
+    "duration": "3m 45sec",
+    "status": "failed",
+    "status_history": [
+      {
+        "build": 18,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      }
+    ],
+    "failed_step": "Stage: authoring - Step: Execute Instructions",
+    "error_message": "Navigation error: Page not found",
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Navigation error: Page not found",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Element not clickable: Element is overlapped by another element",
+            "step_description": "resume"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Verification failed: Expected data not found",
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 5,
+    "links": {
+      "kane_overwatch_url": "https://qa-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=67ab6836-77f3-420a-a351-20b826b46200&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=FKDL2-ZXCVB-P5BLG-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=f547192e-fa8e-4632-9d34-c5ff51fc7260&stageId=fc6639f3-7e76-44e7-bcad-b8a318412a00&taskId=aeef1206-d679-4aa8-972e-b985a02acccc"
+    }
+  },
+  {
+    "team": "alphacrew",
+    "env": "prod",
+    "build_id": "19",
+    "test_id": "TC-4895",
+    "test_name": "Session Management Verification",
+    "description": "Ensuring dashboard displays accurate real-time data",
+    "priority": "p4",
+    "suite": ["full"],
+    "coverage": [],
+    "start_time": "2025-05-09T14:47:38.000Z",
+    "end_time": "2025-05-09T14:49:14.000Z",
+    "duration": "1m 36sec",
+    "status": "aborted",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "aborted"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "28sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "passed",
+            "duration": "27sec",
+            "step_name": "Replay test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "passed",
+            "duration": "20sec",
+            "step_name": "Rerun test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "116sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": "Navigation error: Page not found",
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 5,
+    "links": {
+      "kane_overwatch_url": "https://prod-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=b69d10ad-93fc-4f6c-a621-c0da43550aa6&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=FKDL2-ZXCVB-DFGHJ-XEDC4",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=c2f697e2-f10a-40bc-bbb1-fc777d655bdd&stageId=810842a6-87ae-42cc-bcad-065a73a82a21&taskId=372f9ffe-ceba-4258-8126-2545dd290045"
+    }
+  },
+  {
+    "team": "kaneai",
+    "env": "prod",
+    "build_id": "19",
+    "test_id": "TC-5064",
+    "test_name": "Database Connection Validation",
+    "description": "Testing error handling mechanisms and log generation",
+    "priority": "p4",
+    "suite": ["regression", "smoke"],
+    "coverage": [],
+    "start_time": "2025-05-01T10:29:58.000Z",
+    "end_time": "2025-05-01T10:32:41.000Z",
+    "duration": "2m 43sec",
+    "status": "failed",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      }
+    ],
+    "failed_step": "Stage: authoring - Step: Execute Instructions",
+    "error_message": "Request processing error: Server returned 500",
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Timeout exceeded: Element not found within 30 seconds",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Request processing error: Server returned 500",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Form submission failed: Network timeout",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 0,
+    "links": {
+      "kane_overwatch_url": "https://prod-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=98e56a42-435a-455c-a306-cc91236cc616&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=BVNM7-ZXCVB-P5BLG-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=868e85d7-00ce-458b-9582-b0a1873b2422&stageId=cbbe9444-2ec6-4478-83d7-561619dc95ec&taskId=85cf8dba-c748-42be-9b85-d5deee761bce"
+    }
+  },
+  {
+    "team": "devsync",
+    "env": "qa",
+    "build_id": "19",
+    "test_id": "TC-5568",
+    "test_name": "Error Handling and Logging",
+    "description": "Testing form validation rules and submission workflow",
+    "priority": "p3",
+    "suite": ["sanity"],
+    "coverage": [],
+    "start_time": "2025-05-03T18:02:43.000Z",
+    "end_time": "2025-05-03T18:04:10.000Z",
+    "duration": "1m 27sec",
+    "status": "skipped",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Request processing error: Server returned 500",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Element not clickable: Element is overlapped by another element",
+            "step_description": "resume"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Login failed: Invalid credentials provided",
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 0,
+    "links": {
+      "kane_overwatch_url": "https://qa-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=f2a97a74-3215-4bd9-b0c0-18b5df5be1a3&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=BVNM7-WFPGE-QAZWS-XEDC4",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=7c7d94e3-6699-4638-af54-0d52b3c01378&stageId=412b0fa6-f985-432f-b986-4f498c2d4706&taskId=fa78cfcf-4d36-48d3-b250-0ead9a407032"
+    }
+  },
+  {
+    "team": "kaneai",
+    "env": "stage",
+    "build_id": "19",
+    "test_id": "TC-9331",
+    "test_name": "Login Flow Validation Test",
+    "description": "Validating complete purchase flow from cart to confirmation",
+    "priority": "p2",
+    "suite": ["full", "nightly"],
+    "coverage": [],
+    "start_time": "2025-05-10T08:54:13.000Z",
+    "end_time": "2025-05-10T08:54:45.000Z",
+    "duration": "32sec",
+    "status": "skipped",
+    "status_history": [
+      {
+        "build": 18,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Request processing error: Server returned 500",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Element not clickable: Element is overlapped by another element",
+            "step_description": "resume"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Navigation error: Page not found",
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 1,
+    "links": {
+      "kane_overwatch_url": "https://stage-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=a5d11e86-88f1-4a20-8c8d-52d63e9be9f1&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=UJSG3-ZXCVB-P5BLG-NHYUJ",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=60d6822e-d255-4c08-b919-9c35d4527021&stageId=35ab7648-122d-4bdd-82a8-384201947fe5&taskId=a85b9897-e283-428b-80a7-0f799c0f9a1b"
+    }
+  },
+  {
+    "team": "kaneai",
+    "env": "stage",
+    "build_id": "19",
+    "test_id": "TC-2593",
+    "test_name": "Mobile Responsive Design Check",
+    "description": "Testing error handling mechanisms and log generation",
+    "priority": "p4",
+    "suite": ["full", "regression", "nightly"],
+    "coverage": [],
+    "start_time": "2025-05-06T08:12:21.000Z",
+    "end_time": "2025-05-06T08:16:21.000Z",
+    "duration": "4m 0sec",
+    "status": "passed",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "passed"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "10sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "replay"
+          },
+          {
+            "status": "passed",
+            "duration": "25sec",
+            "step_name": "Rerun test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "98sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "23sec",
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "resume"
+          },
+          {
+            "status": "passed",
+            "duration": "21sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "passed",
+        "duration": "27sec",
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 0,
+    "links": {
+      "kane_overwatch_url": "https://stage-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=0b455e4c-06e6-46f6-a689-337520149271&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=FKDL2-ZXCVB-MNBVC-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=69b2d0ac-a817-4848-b280-c330331d5ece&stageId=1be0bd36-8d3a-4ff3-aced-b73c093dc10d&taskId=3e55768c-12b6-4300-a72a-ca786fd97170"
+    }
+  },
+  {
+    "team": "alphacrew",
+    "env": "stage",
+    "build_id": "19",
+    "test_id": "TC-3737",
+    "test_name": "User Authentication and Authorization",
+    "description": "Testing form validation rules and submission workflow",
+    "priority": "p1",
+    "suite": ["sanity", "nightly"],
+    "coverage": [],
+    "start_time": "2025-05-07T16:08:28.000Z",
+    "end_time": "2025-05-07T16:10:19.000Z",
+    "duration": "1m 51sec",
+    "status": "skipped",
+    "status_history": [
+      {
+        "build": 17,
+        "status": "failed"
+      },
+      {
+        "build": 18,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "3sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "replay"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "49sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": "Authentication failed: Token expired",
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 2,
+    "links": {
+      "kane_overwatch_url": "https://stage-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=73038574-0aec-4132-8fd4-fcc724265ecf&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=FKDL2-ZXCVB-QAZWS-NHYUJ",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=c4464365-8d33-40c0-befe-5765d43bb6da&stageId=a24c6354-9fac-4841-ae2a-510dccc1c3f4&taskId=d35e9ba5-67f8-4603-9b2a-f27dc9650bf1"
+    }
+  },
+  {
+    "team": "kaneai",
+    "env": "qa",
+    "build_id": "19",
+    "test_id": "TC-3399",
+    "test_name": "Mobile Responsive Design Check",
+    "description": "Validating system performance under simulated load",
+    "priority": "p1",
+    "suite": ["nightly", "sanity", "full"],
+    "coverage": [],
+    "start_time": "2025-05-05T02:42:24.000Z",
+    "end_time": "2025-05-05T02:46:49.000Z",
+    "duration": "4m 25sec",
+    "status": "aborted",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "12sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "passed",
+            "duration": "23sec",
+            "step_name": "Replay test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "22sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "11sec",
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "passed",
+        "duration": "35sec",
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 0,
+    "links": {
+      "kane_overwatch_url": "https://qa-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=3f2b1841-a28a-4013-ba54-7510daea0d81&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=TYUP9-WFPGE-MNBVC-XEDC4",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=cf3662c2-8254-45df-8e1e-ea2731149777&stageId=761c4b7e-eda9-4992-ba18-3acc91bf99a6&taskId=d75d7297-ae3c-4bbe-a998-cb03184745c0"
+    }
+  },
+  {
+    "team": "kaneai",
+    "env": "qa",
+    "build_id": "19",
+    "test_id": "TC-7894",
+    "test_name": "Form Validation and Submission",
+    "description": "Testing form validation rules and submission workflow",
+    "priority": "p2",
+    "suite": ["regression", "nightly"],
+    "coverage": [],
+    "start_time": "2025-05-08T09:52:32.000Z",
+    "end_time": "2025-05-08T09:54:46.000Z",
+    "duration": "2m 14sec",
+    "status": "passed",
+    "status_history": [
+      {
+        "build": 17,
+        "status": "aborted"
+      },
+      {
+        "build": 18,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "passed"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "21sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": null,
+            "error_message": "Timeout exceeded: Element not found within 30 seconds",
+            "step_description": "replay"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": null,
+            "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "16sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Login failed: Invalid credentials provided",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": "Request processing error: Server returned 500",
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 2,
+    "links": {
+      "kane_overwatch_url": "https://qa-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=fa424ddf-1874-4a36-b6af-199119a96b3d&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=BVNM7-QWERT-QAZWS-XEDC4",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=52deaa9e-304c-4c29-8b41-02b951aea7db&stageId=986f7f3a-cb81-45dc-9479-c5bf1b1ad6fd&taskId=666bb129-d2f3-43d1-8b70-a2705e5baf4d"
+    }
+  },
+  {
+    "team": "betabots",
+    "env": "stage",
+    "build_id": "19",
+    "test_id": "TC-4332",
+    "test_name": "Form Validation and Submission",
+    "description": "Testing application compatibility across multiple browsers",
+    "priority": "p2",
+    "suite": ["sanity"],
+    "coverage": [],
+    "start_time": "2025-05-03T23:54:31.000Z",
+    "end_time": "2025-05-03T23:56:00.000Z",
+    "duration": "1m 29sec",
+    "status": "passed",
+    "status_history": [
+      {
+        "build": 17,
+        "status": "passed"
+      },
+      {
+        "build": 18,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "passed"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Element not clickable: Element is overlapped by another element",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "resume"
+          },
+          {
+            "status": "passed",
+            "duration": "19sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 0,
+    "links": {
+      "kane_overwatch_url": "https://stage-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=f99603e8-0a73-4962-a4de-e8d15af79813&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=FKDL2-WFPGE-DFGHJ-RFVTG",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=ec6fb6da-4188-47cd-b235-ebf13ef99fae&stageId=7dfa0f17-4741-4518-8939-5dfb5cad3b2f&taskId=f1ae0386-3417-4ebf-8c60-65faab489c8b"
+    }
+  },
+  {
+    "team": "betabots",
+    "env": "prod",
+    "build_id": "19",
+    "test_id": "TC-8152",
+    "test_name": "Login Flow Validation Test",
+    "description": "Verifying mobile responsive design works correctly",
+    "priority": "p1",
+    "suite": ["regression", "sanity"],
+    "coverage": [],
+    "start_time": "2025-05-03T14:42:35.000Z",
+    "end_time": "2025-05-03T14:44:55.000Z",
+    "duration": "2m 20sec",
+    "status": "aborted",
+    "status_history": [
+      {
+        "build": 18,
+        "status": "skipped"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "1sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "replay"
+          },
+          {
+            "status": "passed",
+            "duration": "11sec",
+            "step_name": "Rerun test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "96sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": "Login failed: Invalid credentials provided",
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 4,
+    "links": {
+      "kane_overwatch_url": "https://prod-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=0ada4707-b192-4531-92cc-4e34f444b620&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=TYUP9-ZXCVB-P5BLG-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=e86077ee-69d4-4b48-9b53-780518937fd6&stageId=9b8859d4-2554-42f2-90e9-eeca07c95ada&taskId=25f0f721-8a3f-4f40-9092-c10f2666ec93"
+    }
+  },
+  {
+    "team": "teststorm",
+    "env": "qa",
+    "build_id": "19",
+    "test_id": "TC-6194",
+    "test_name": "Form Validation and Submission",
+    "description": "Testing user login functionality across different browsers",
+    "priority": "p4",
+    "suite": ["full", "regression"],
+    "coverage": [],
+    "start_time": "2025-05-03T09:12:22.000Z",
+    "end_time": "2025-05-03T09:14:46.000Z",
+    "duration": "2m 24sec",
+    "status": "skipped",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "23sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "passed",
+            "duration": "4sec",
+            "step_name": "Replay test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "87sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "6sec",
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "passed",
+        "duration": "102sec",
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 1,
+    "links": {
+      "kane_overwatch_url": "https://qa-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=051c7cae-2235-4d4c-90ea-08e445a1fdb5&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=BVNM7-WFPGE-QAZWS-NHYUJ",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=0e7e1c32-0b0f-4f42-8746-d0433cc5d938&stageId=fb915576-4564-45d1-848d-0f89f2a5ef4a&taskId=53facf29-c25d-49d1-95e6-a702285c0139"
+    }
+  },
+  {
+    "team": "qatech",
+    "env": "prod",
+    "build_id": "19",
+    "test_id": "TC-2745",
+    "test_name": "Mobile Responsive Design Check",
+    "description": "Verifying that the smart wait is working for UI actions and operations",
+    "priority": "p1",
+    "suite": ["regression", "sanity"],
+    "coverage": [],
+    "start_time": "2025-05-06T21:26:38.000Z",
+    "end_time": "2025-05-06T21:31:06.000Z",
+    "duration": "4m 28sec",
+    "status": "skipped",
+    "status_history": [
+      {
+        "build": 18,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "16sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "69sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Data validation error: Required field missing",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 2,
+    "links": {
+      "kane_overwatch_url": "https://prod-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=89e15499-39f7-4466-923a-04432d9bb39c&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=TYUP9-ZXCVB-MNBVC-RFVTG",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=333c561b-a964-401b-88a9-33bb6bc47252&stageId=84196d9e-0922-45b0-b0a3-489affffcaa6&taskId=9f326b5b-fbe7-41c6-a51a-642196bce8f4"
+    }
+  },
+  {
+    "team": "betabots",
+    "env": "stage",
+    "build_id": "19",
+    "test_id": "TC-1196",
+    "test_name": "Performance Under Load Test",
+    "description": "Testing application compatibility across multiple browsers",
+    "priority": "p4",
+    "suite": ["full"],
+    "coverage": [],
+    "start_time": "2025-05-06T10:22:17.000Z",
+    "end_time": "2025-05-06T10:26:07.000Z",
+    "duration": "3m 50sec",
+    "status": "skipped",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "aborted"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "12sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": null,
+            "error_message": "Form submission failed: Network timeout",
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "26sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Element not clickable: Element is overlapped by another element",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": "Navigation error: Page not found",
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 0,
+    "links": {
+      "kane_overwatch_url": "https://stage-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=aa2eef65-8356-44b8-99ca-671ad30f0e71&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=UJSG3-LKJHG-P5BLG-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=5d490b54-5056-4364-9c9b-b4db083a74c6&stageId=5a2398ac-85ef-40b3-a910-43e0693b6d2f&taskId=660594dc-a090-4638-a4dd-804e81e56810"
+    }
+  },
+  {
+    "team": "alphacrew",
+    "env": "prod",
+    "build_id": "19",
+    "test_id": "TC-2977",
+    "test_name": "Performance Under Load Test",
+    "description": "Testing file upload with various file types and sizes",
+    "priority": "p3",
+    "suite": ["nightly"],
+    "coverage": [],
+    "start_time": "2025-05-08T11:47:39.000Z",
+    "end_time": "2025-05-08T11:50:04.000Z",
+    "duration": "2m 25sec",
+    "status": "skipped",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Authentication failed: Token expired",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 4,
+    "links": {
+      "kane_overwatch_url": "https://prod-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=d54e6830-13db-4196-8381-0c9b27546d3c&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=FKDL2-ZXCVB-P5BLG-XEDC4",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=8f74ebbb-d56b-4725-930a-95b8dcf13fb3&stageId=4a488463-7e93-4eab-ab29-bbd98e4ca3ef&taskId=085107ec-88ff-4bad-a4e7-4c6f9e066dc5"
+    }
+  },
+  {
+    "team": "teststorm",
+    "env": "dev",
+    "build_id": "19",
+    "test_id": "TC-5056",
+    "test_name": "File Upload Functionality Test",
+    "description": "Checking API response times meet performance requirements",
+    "priority": "p3",
+    "suite": ["sanity", "full"],
+    "coverage": [],
+    "start_time": "2025-05-05T19:16:58.000Z",
+    "end_time": "2025-05-05T19:19:20.000Z",
+    "duration": "2m 22sec",
+    "status": "skipped",
+    "status_history": [
+      {
+        "build": 17,
+        "status": "failed"
+      },
+      {
+        "build": 18,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Login failed: Invalid credentials provided",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Authentication failed: Token expired",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 3,
+    "links": {
+      "kane_overwatch_url": "https://dev-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=d491d1f9-4da6-435c-8ace-fa8b22b5c3ba&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=BVNM7-ZXCVB-DFGHJ-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=05d44f26-a62e-4bbb-b1cf-e412355099b3&stageId=335df6f3-34e7-4d43-984a-97ce6adbb986&taskId=b0691007-3070-44c1-b949-652d199882bd"
+    }
+  },
+  {
+    "team": "kaneai",
+    "env": "dev",
+    "build_id": "19",
+    "test_id": "TC-2702",
+    "test_name": "File Upload Functionality Test",
+    "description": "Testing form validation rules and submission workflow",
+    "priority": "p2",
+    "suite": ["sanity", "regression"],
+    "coverage": [],
+    "start_time": "2025-05-02T00:37:19.000Z",
+    "end_time": "2025-05-02T00:41:50.000Z",
+    "duration": "4m 31sec",
+    "status": "passed",
+    "status_history": [
+      {
+        "build": 18,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "passed"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "21sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": null,
+            "error_message": "Form submission failed: Network timeout",
+            "step_description": "replay"
+          },
+          {
+            "status": "passed",
+            "duration": "25sec",
+            "step_name": "Rerun test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "58sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "7sec",
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "resume"
+          },
+          {
+            "status": "passed",
+            "duration": "14sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "passed",
+        "duration": "31sec",
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 4,
+    "links": {
+      "kane_overwatch_url": "https://dev-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=b960005b-76cc-4017-a9c2-0e2bb7047d2c&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=TYUP9-WFPGE-QAZWS-RFVTG",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=5e9342df-f35e-4551-9411-a8e3214ebc01&stageId=fea4c89b-ded4-4fe1-b99e-8f626b4d32a0&taskId=9bd222f9-0036-493f-8155-7ba84eea3ecc"
+    }
+  },
+  {
+    "team": "alphacrew",
+    "env": "dev",
+    "build_id": "19",
+    "test_id": "TC-9418",
+    "test_name": "Cross-Browser Compatibility Test",
+    "description": "Testing error handling mechanisms and log generation",
+    "priority": "p4",
+    "suite": ["nightly"],
+    "coverage": [],
+    "start_time": "2025-05-09T11:10:27.000Z",
+    "end_time": "2025-05-09T11:11:11.000Z",
+    "duration": "44sec",
+    "status": "skipped",
+    "status_history": [
+      {
+        "build": 17,
+        "status": "aborted"
+      },
+      {
+        "build": 18,
+        "status": "skipped"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "18sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": null,
+            "error_message": "Verification failed: Expected data not found",
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "83sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Element not clickable: Element is overlapped by another element",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": "Timeout exceeded: Element not found within 30 seconds",
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 1,
+    "links": {
+      "kane_overwatch_url": "https://dev-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=a3ee4751-6ad0-43c6-8616-c07062394709&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=UJSG3-LKJHG-P5BLG-XEDC4",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=25b085df-c55c-4474-8db0-44b15f3cead0&stageId=ed33e376-b42d-4769-86ec-903e0ca18709&taskId=d03c5a3c-21b9-40eb-b5cf-969bbf32e4c3"
+    }
+  },
+  {
+    "team": "kaneai",
+    "env": "stage",
+    "build_id": "19",
+    "test_id": "TC-7540",
+    "test_name": "Dashboard Data Integrity Check",
+    "description": "Validating system performance under simulated load",
+    "priority": "p1",
+    "suite": ["regression", "smoke"],
+    "coverage": [],
+    "start_time": "2025-04-30T21:30:06.000Z",
+    "end_time": "2025-04-30T21:31:19.000Z",
+    "duration": "1m 13sec",
+    "status": "aborted",
+    "status_history": [
+      {
+        "build": 18,
+        "status": "skipped"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Timeout exceeded: Element not found within 30 seconds",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Verification failed: Expected data not found",
+            "step_description": "resume"
+          },
+          {
+            "status": "passed",
+            "duration": "15sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 4,
+    "links": {
+      "kane_overwatch_url": "https://stage-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=34871457-ed5c-4594-8fcb-7049769ef1d7&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=TYUP9-QWERT-MNBVC-NHYUJ",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=f9bd4080-8693-4291-ac9f-987dc70b0f16&stageId=b0826f2d-327d-4b95-800c-472d8f19f15f&taskId=f44a99b9-ba59-400b-b1a6-04783fe89534"
+    }
+  },
+  {
+    "team": "kaneai",
+    "env": "prod",
+    "build_id": "19",
+    "test_id": "TC-4993",
+    "test_name": "Session Management Verification",
+    "description": "Verifying that the smart wait is working for UI actions and operations",
+    "priority": "p1",
+    "suite": ["sanity"],
+    "coverage": [],
+    "start_time": "2025-05-04T03:40:39.000Z",
+    "end_time": "2025-05-04T03:41:55.000Z",
+    "duration": "1m 16sec",
+    "status": "failed",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "aborted"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      }
+    ],
+    "failed_step": "Stage: authoring - Step: Execute Instructions",
+    "error_message": "Login failed: Invalid credentials provided",
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Verification failed: Expected data not found",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Login failed: Invalid credentials provided",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Navigation error: Page not found",
+            "step_description": "resume"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 4,
+    "links": {
+      "kane_overwatch_url": "https://prod-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=58a971da-72d2-4450-9d22-fd2e99dedb84&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=FKDL2-QWERT-MNBVC-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=f27c206f-f0d8-48ed-b2be-49657a91f118&stageId=2e48a180-540d-4c07-8d92-f0eb7513683d&taskId=59f4851b-82cc-4624-a4aa-f9825af01799"
+    }
+  },
+  {
+    "team": "qatech",
+    "env": "dev",
+    "build_id": "19",
+    "test_id": "TC-3891",
+    "test_name": "Login Flow Validation Test",
+    "description": "Validating complete purchase flow from cart to confirmation",
+    "priority": "p2",
+    "suite": ["nightly"],
+    "coverage": [],
+    "start_time": "2025-05-08T22:31:18.000Z",
+    "end_time": "2025-05-08T22:34:23.000Z",
+    "duration": "3m 5sec",
+    "status": "aborted",
+    "status_history": [
+      {
+        "build": 17,
+        "status": "passed"
+      },
+      {
+        "build": 18,
+        "status": "skipped"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Element not clickable: Element is overlapped by another element",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Navigation error: Page not found",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Element not clickable: Element is overlapped by another element",
+            "step_description": "resume"
+          },
+          {
+            "status": "passed",
+            "duration": "15sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 5,
+    "links": {
+      "kane_overwatch_url": "https://dev-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=52983989-1398-4b56-9d22-8a105f4df187&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=BVNM7-WFPGE-P5BLG-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=9334b4aa-0303-4a0a-aac3-444fec9752ea&stageId=989994eb-5be3-424f-95b6-9fad39331d23&taskId=9a3799ca-ca06-4176-ae64-78480ae497e6"
+    }
+  },
+  {
+    "team": "kaneai",
+    "env": "stage",
+    "build_id": "19",
+    "test_id": "TC-5593",
+    "test_name": "Dashboard Data Integrity Check",
+    "description": "Verifying mobile responsive design works correctly",
+    "priority": "p4",
+    "suite": ["nightly"],
+    "coverage": [],
+    "start_time": "2025-05-09T04:03:24.000Z",
+    "end_time": "2025-05-09T04:07:10.000Z",
+    "duration": "3m 46sec",
+    "status": "failed",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      }
+    ],
+    "failed_step": "Stage: authoring - Step: Execute Instructions",
+    "error_message": "Element not clickable: Element is overlapped by another element",
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Element not clickable: Element is overlapped by another element",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Element not clickable: Element is overlapped by another element",
+            "step_description": "resume"
+          },
+          {
+            "status": "passed",
+            "duration": "1sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 1,
+    "links": {
+      "kane_overwatch_url": "https://stage-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=5ff81ed2-d8d5-4b04-9bd0-4b38b3b4ba19&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=BVNM7-ZXCVB-DFGHJ-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=16918720-fedb-4e22-9dbe-5bcd90097042&stageId=7b486a4a-d322-4d7a-9ba2-e73e708faf9c&taskId=c682ab33-78f7-42f0-8225-c3e571f8fb54"
+    }
+  },
+  {
+    "team": "teststorm",
+    "env": "prod",
+    "build_id": "19",
+    "test_id": "TC-5742",
+    "test_name": "User Authentication and Authorization",
+    "description": "Checking database connectivity and transaction integrity",
+    "priority": "p3",
+    "suite": ["full", "smoke", "nightly"],
+    "coverage": [],
+    "start_time": "2025-05-04T13:25:54.000Z",
+    "end_time": "2025-05-04T13:28:38.000Z",
+    "duration": "2m 44sec",
+    "status": "skipped",
+    "status_history": [
+      {
+        "build": 18,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Form submission failed: Network timeout",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Authentication failed: Token expired",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Data validation error: Required field missing",
+            "step_description": "resume"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Verification failed: Expected data not found",
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 0,
+    "links": {
+      "kane_overwatch_url": "https://prod-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=28556610-d677-4009-b27e-fa4453b082ca&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=BVNM7-LKJHG-QAZWS-NHYUJ",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=364945ac-101b-41d9-9820-09f28f76b2d4&stageId=9b79c379-1cc9-4dc7-b159-72b5426ac098&taskId=ab9c7d65-36de-45b7-a711-0a7e5fcd4115"
+    }
+  },
+  {
+    "team": "devsync",
+    "env": "qa",
+    "build_id": "19",
+    "test_id": "TC-1963",
+    "test_name": "Performance Under Load Test",
+    "description": "Checking API response times meet performance requirements",
+    "priority": "p2",
+    "suite": ["nightly", "full"],
+    "coverage": [],
+    "start_time": "2025-05-02T09:36:22.000Z",
+    "end_time": "2025-05-02T09:39:33.000Z",
+    "duration": "3m 11sec",
+    "status": "aborted",
+    "status_history": [
+      {
+        "build": 17,
+        "status": "skipped"
+      },
+      {
+        "build": 18,
+        "status": "aborted"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Login failed: Invalid credentials provided",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Navigation error: Page not found",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Login failed: Invalid credentials provided",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 5,
+    "links": {
+      "kane_overwatch_url": "https://qa-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=452ad075-c184-4047-9a39-c144af75f249&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=BVNM7-ZXCVB-P5BLG-XEDC4",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=01fb98bd-9ccc-48c9-9dfc-92eaeac0f0b7&stageId=a1356cd2-d60e-4a00-88fc-b1447b851c63&taskId=1c05f56a-eb0e-4433-95b1-08b517f5dcab"
+    }
+  },
+  {
+    "team": "teststorm",
+    "env": "stage",
+    "build_id": "19",
+    "test_id": "TC-5445",
+    "test_name": "User Authentication and Authorization",
+    "description": "Validating system performance under simulated load",
+    "priority": "p1",
+    "suite": ["regression"],
+    "coverage": [],
+    "start_time": "2025-05-05T18:37:57.000Z",
+    "end_time": "2025-05-05T18:42:42.000Z",
+    "duration": "4m 45sec",
+    "status": "failed",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      }
+    ],
+    "failed_step": "Stage: authoring - Step: Execute Instructions",
+    "error_message": "Verification failed: Expected data not found",
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Verification failed: Expected data not found",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Element not clickable: Element is overlapped by another element",
+            "step_description": "resume"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Element not clickable: Element is overlapped by another element",
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 1,
+    "links": {
+      "kane_overwatch_url": "https://stage-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=7c3cb30d-697a-4c4a-9692-05155744f4ce&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=FKDL2-QWERT-DFGHJ-RFVTG",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=81a8732c-2303-461d-ae2d-0d731e4f26a1&stageId=82fb50fd-2407-4466-afa8-bdd7aa086858&taskId=7bca9ed4-c5b5-41d5-9573-3db2e3e9b540"
+    }
+  },
+  {
+    "team": "kaneai",
+    "env": "qa",
+    "build_id": "19",
+    "test_id": "TC-8238",
+    "test_name": "Mobile Responsive Design Check",
+    "description": "Validating complete purchase flow from cart to confirmation",
+    "priority": "p3",
+    "suite": ["regression"],
+    "coverage": [],
+    "start_time": "2025-05-09T20:13:13.000Z",
+    "end_time": "2025-05-09T20:16:38.000Z",
+    "duration": "3m 25sec",
+    "status": "skipped",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "25sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "passed",
+            "duration": "6sec",
+            "step_name": "Rerun test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "15sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": "Form submission failed: Network timeout",
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 4,
+    "links": {
+      "kane_overwatch_url": "https://qa-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=715d5435-24f2-4e1f-88bd-c7922f709274&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=FKDL2-WFPGE-QAZWS-NHYUJ",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=beb1fcd6-40f3-43e4-bf57-a56e0b50e0ca&stageId=56b54ec7-be9d-47a1-ab4e-205d39265f2d&taskId=7990f619-8bdc-4fff-8565-40465d7814d8"
+    }
+  },
+  {
+    "team": "devsync",
+    "env": "stage",
+    "build_id": "19",
+    "test_id": "TC-4987",
+    "test_name": "Dashboard Data Integrity Check",
+    "description": "Testing file upload with various file types and sizes",
+    "priority": "p2",
+    "suite": ["smoke", "full", "nightly"],
+    "coverage": [],
+    "start_time": "2025-05-07T15:16:27.000Z",
+    "end_time": "2025-05-07T15:20:31.000Z",
+    "duration": "4m 4sec",
+    "status": "aborted",
+    "status_history": [
+      {
+        "build": 18,
+        "status": "skipped"
+      },
+      {
+        "build": 19,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Verification failed: Expected data not found",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Element not clickable: Element is overlapped by another element",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "resume"
+          },
+          {
+            "status": "passed",
+            "duration": "15sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 1,
+    "links": {
+      "kane_overwatch_url": "https://stage-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=5a854814-4135-4885-aa53-0c8509d9eb6c&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=FKDL2-WFPGE-P5BLG-RFVTG",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=4b1a2b2d-1efa-41bc-b8cf-3a784af0a6ee&stageId=091b57a2-d831-45f0-a268-f51ccc7313bc&taskId=812b8b99-c1c9-4e58-83ec-b43aab7e74e9"
+    }
+  },
+  {
+    "team": "qatech",
+    "env": "prod",
+    "build_id": "19",
+    "test_id": "TC-7739",
+    "test_name": "User Authentication and Authorization",
+    "description": "Testing error handling mechanisms and log generation",
+    "priority": "p2",
+    "suite": ["regression"],
+    "coverage": [],
+    "start_time": "2025-05-06T23:18:00.000Z",
+    "end_time": "2025-05-06T23:19:05.000Z",
+    "duration": "1m 5sec",
+    "status": "passed",
+    "status_history": [
+      {
+        "build": 18,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "passed"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Login failed: Invalid credentials provided",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 4,
+    "links": {
+      "kane_overwatch_url": "https://prod-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=5474b33a-ca48-44bd-87fe-22c3311c56e5&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=FKDL2-WFPGE-P5BLG-NHYUJ",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=9901f787-dc3c-49ee-9885-f8ca174b969b&stageId=0b794a14-8ba5-4a53-919f-10e40cd294d8&taskId=e0526538-38e9-4079-a7ad-5b23c0431024"
+    }
+  },
+  {
+    "team": "teststorm",
+    "env": "qa",
+    "build_id": "19",
+    "test_id": "TC-6365",
+    "test_name": "Cross-Browser Compatibility Test",
+    "description": "Validating complete purchase flow from cart to confirmation",
+    "priority": "p2",
+    "suite": ["nightly", "full"],
+    "coverage": [],
+    "start_time": "2025-05-02T08:53:53.000Z",
+    "end_time": "2025-05-02T08:54:29.000Z",
+    "duration": "36sec",
+    "status": "skipped",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "aborted"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "9sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "passed",
+            "duration": "18sec",
+            "step_name": "Rerun test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "16sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Authentication failed: Token expired",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": "Request processing error: Server returned 500",
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 2,
+    "links": {
+      "kane_overwatch_url": "https://qa-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=a5502214-d95e-4678-84c7-353943eb3d5d&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=UJSG3-WFPGE-P5BLG-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=10a93d0c-c23e-4258-806e-6e52bdadc1b5&stageId=7d89c62c-01e3-4aee-8820-9cc41b0926e2&taskId=ad5c95eb-efe6-4dad-9467-62bacea8e6d8"
+    }
+  },
+  {
+    "team": "alphacrew",
+    "env": "prod",
+    "build_id": "19",
+    "test_id": "TC-1659",
+    "test_name": "Login Flow Validation Test",
+    "description": "Validating system performance under simulated load",
+    "priority": "p1",
+    "suite": ["smoke", "regression", "full"],
+    "coverage": [],
+    "start_time": "2025-05-04T23:05:10.000Z",
+    "end_time": "2025-05-04T23:09:28.000Z",
+    "duration": "4m 18sec",
+    "status": "failed",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      }
+    ],
+    "failed_step": "Stage: authoring - Step: Execute Instructions",
+    "error_message": "Navigation error: Page not found",
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Navigation error: Page not found",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Element not clickable: Element is overlapped by another element",
+            "step_description": "resume"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 3,
+    "links": {
+      "kane_overwatch_url": "https://prod-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=9c65076d-41b3-43c0-a7bd-f5fa43526f8b&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=FKDL2-LKJHG-P5BLG-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=1b3e39e0-df2b-4324-a695-40eac658fd77&stageId=33dfdfc5-e5d0-4753-96e8-fa2137de5844&taskId=5e7ad87e-cc83-4f4c-bcf0-d20668e33c10"
+    }
+  },
+  {
+    "team": "betabots",
+    "env": "qa",
+    "build_id": "19",
+    "test_id": "TC-3748",
+    "test_name": "File Upload Functionality Test",
+    "description": "Checking database connectivity and transaction integrity",
+    "priority": "p2",
+    "suite": ["sanity", "full"],
+    "coverage": [],
+    "start_time": "2025-05-10T01:31:28.000Z",
+    "end_time": "2025-05-10T01:34:11.000Z",
+    "duration": "2m 43sec",
+    "status": "aborted",
+    "status_history": [
+      {
+        "build": 18,
+        "status": "aborted"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      },
+      {
+        "build": 19,
+        "status": "aborted"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "7sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "passed",
+            "duration": "24sec",
+            "step_name": "Replay test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "passed",
+            "duration": "11sec",
+            "step_name": "Rerun test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "10sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Timeout exceeded: Element not found within 30 seconds",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": "Form submission failed: Network timeout",
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 5,
+    "links": {
+      "kane_overwatch_url": "https://qa-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=9d8fdbe3-ae39-41e3-8166-84a0b9264675&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=BVNM7-QWERT-P5BLG-RFVTG",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=505e0b50-d7ce-43fe-9a91-6ccac010b6ec&stageId=c9c1d43e-c452-42dc-b4bc-950a1183da7c&taskId=358d1faa-003c-4d5d-8f43-d3fe64df8771"
+    }
+  },
+  {
+    "team": "alphacrew",
+    "env": "qa",
+    "build_id": "19",
+    "test_id": "TC-7637",
+    "test_name": "API Response Time Validation",
+    "description": "Testing error handling mechanisms and log generation",
+    "priority": "p2",
+    "suite": ["full", "regression"],
+    "coverage": [],
+    "start_time": "2025-05-05T08:08:39.000Z",
+    "end_time": "2025-05-05T08:11:28.000Z",
+    "duration": "2m 49sec",
+    "status": "failed",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      }
+    ],
+    "failed_step": "Stage: authoring - Step: Execute Instructions",
+    "error_message": "Data validation error: Required field missing",
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Element not clickable: Element is overlapped by another element",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Data validation error: Required field missing",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "resume"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 0,
+    "links": {
+      "kane_overwatch_url": "https://qa-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=124239ae-cbc9-4c81-a0d4-613e82a126b7&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=TYUP9-QWERT-P5BLG-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=8627ac2e-7508-4545-bb4c-cd1642f570fd&stageId=b8cf3bd0-36cd-4bb9-a18f-b3afd8c0ab62&taskId=31ee0076-de53-4aed-9287-55c0d4683475"
+    }
+  },
+  {
+    "team": "devsync",
+    "env": "prod",
+    "build_id": "19",
+    "test_id": "TC-7939",
+    "test_name": "User Authentication and Authorization",
+    "description": "Checking for security vulnerabilities and proper encryption",
+    "priority": "p1",
+    "suite": ["sanity", "smoke", "full"],
+    "coverage": [],
+    "start_time": "2025-05-04T03:58:07.000Z",
+    "end_time": "2025-05-04T04:01:19.000Z",
+    "duration": "3m 12sec",
+    "status": "failed",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "aborted"
+      },
+      {
+        "build": 19,
+        "status": "failed"
+      }
+    ],
+    "failed_step": "Stage: authoring - Step: Execute Instructions",
+    "error_message": "Timeout exceeded: Element not found within 30 seconds",
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Navigation error: Page not found",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Timeout exceeded: Element not found within 30 seconds",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Request processing error: Server returned 500",
+            "step_description": "resume"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Verification failed: Expected data not found",
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 2,
+    "links": {
+      "kane_overwatch_url": "https://prod-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=95d5c95e-a16a-47f4-b825-39281d7a8adf&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=TYUP9-ZXCVB-MNBVC-XEDC4",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=077bc8ad-23a4-4d88-bb3f-ca165bd44276&stageId=3f48951d-95b7-4815-a296-ba05080539f8&taskId=c4c25749-f0f7-45ef-b0f4-667c5f77d43a"
+    }
+  },
+  {
+    "team": "alphacrew",
+    "env": "prod",
+    "build_id": "19",
+    "test_id": "TC-9895",
+    "test_name": "Web | Smart Wait for UI Actions and Operations",
+    "description": "Checking database connectivity and transaction integrity",
+    "priority": "p3",
+    "suite": ["regression"],
+    "coverage": [],
+    "start_time": "2025-05-09T01:12:24.000Z",
+    "end_time": "2025-05-09T01:16:54.000Z",
+    "duration": "4m 30sec",
+    "status": "skipped",
+    "status_history": [
+      {
+        "build": 19,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "skipped"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "14sec",
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "passed",
+        "duration": "103sec",
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": null,
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "passed",
+            "duration": "7sec",
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": null,
+            "step_description": "resume"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Navigation error: Page not found",
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": "passed",
+        "duration": "113sec",
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 1,
+    "links": {
+      "kane_overwatch_url": "https://prod-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=9e648098-68b4-438d-8bb1-dca5223a0dbd&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=UJSG3-QWERT-DFGHJ-KQG9Q",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=8f2bb3ca-6f57-4062-8b27-65c091a25ccc&stageId=9f6d136e-0425-42f0-8ab0-824985ff4f0d&taskId=900da740-1d7b-44fb-a7b6-13bb405d61ab"
+    }
+  },
+  {
+    "team": "alphacrew",
+    "env": "qa",
+    "build_id": "19",
+    "test_id": "TC-4713",
+    "test_name": "Login Flow Validation Test",
+    "description": "Testing form validation rules and submission workflow",
+    "priority": "p3",
+    "suite": ["nightly", "full", "smoke"],
+    "coverage": [],
+    "start_time": "2025-05-08T19:37:34.000Z",
+    "end_time": "2025-05-08T19:41:28.000Z",
+    "duration": "3m 54sec",
+    "status": "passed",
+    "status_history": [
+      {
+        "build": 17,
+        "status": "passed"
+      },
+      {
+        "build": 18,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "passed"
+      },
+      {
+        "build": 19,
+        "status": "passed"
+      }
+    ],
+    "failed_step": null,
+    "error_message": null,
+    "stages": [
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+            "step_description": "run_instructions"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Replay test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "replay"
+          },
+          {
+            "status": "skipped",
+            "duration": null,
+            "step_name": "Rerun test",
+            "stacktrace": "",
+            "error_message": null,
+            "step_description": "rerun"
+          }
+        ],
+        "status": "failed",
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "authoring",
+        "error_message": "Verification failed: Expected data not found",
+        "stage_description": "Authoring a new test on KaneAI"
+      },
+      {
+        "steps": [
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Resume test",
+            "stacktrace": null,
+            "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+            "step_description": "resume"
+          },
+          {
+            "status": "failed",
+            "duration": null,
+            "step_name": "Execute Instructions",
+            "stacktrace": null,
+            "error_message": "Execution failed for instruction: tap on get flood details with error: no element found with tag id and intent: ",
+            "step_description": "run_instructions"
+          }
+        ],
+        "status": null,
+        "duration": null,
+        "stacktrace": null,
+        "stage_name": "playground",
+        "error_message": null,
+        "stage_description": "Playground for the test"
+      }
+    ],
+    "flaky": 5,
+    "links": {
+      "kane_overwatch_url": "https://qa-kaneai.lambdatestinternal.com/projects/test-cases/?auteurTestCaseId=7789cc1e-3a01-45c8-a4ca-d3e2a9c21b66&overwatch=true",
+      "magicleap_url": "https://automation.lambdatest.com/test?testID=FKDL2-ZXCVB-P5BLG-NHYUJ",
+      "hyperexecute_url": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=9079e62d-fd53-4866-94de-3267cab2abee&stageId=9586586c-9f9c-42b1-ac5c-e46dca3a5b09&taskId=d8cebcfc-fbf3-42ff-9c86-f055a9558d36"
+    }
+  }
+]
