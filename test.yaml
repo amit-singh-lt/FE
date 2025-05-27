@@ -1,0 +1,209 @@
+name: Upload a File and Verify Login on LambdaTest
+description: >-
+  Updated the wait time before asserting that realdevice is displayed from 1
+  second to 2 seconds.
+priority: medium
+suite:
+  - regression
+  - lambdatest.com
+meta_data:
+  test_name: Upload a File and Verify Login on LambdaTest
+  test_description: >-
+    Updated the wait time before asserting that realdevice is displayed from 1
+    second to 2 seconds.
+stages:
+  - name: authoring
+    description: >-
+      Authoring a test that validates - Upload a File and Verify Login on
+      LambdaTest
+    steps:
+      - name: Upload File to VM
+        uses:
+          module: upload_file
+          args:
+            file_names:
+              - rtaImage.jpeg
+              - file_example_MP3_1MG.mp3
+      - name: Create Module - testing js&api
+        description: ''
+        uses:
+          module: create_module
+          args:
+            - name: I should open lambdatest.com
+              uses:
+                module: run_instructions
+                args:
+                  instructions: open lambdatest.com
+            - name: >-
+                The javascript code scrolls the webpage to the bottom. It sets
+                the vertical scroll position to the maximum height of the
+                document body, effectively moving the view to the bottom of the
+                page.
+              uses:
+                module: execute_js
+                args:
+                  script: >-
+                    the_javascript_code_scrolls_the_webpage_to_the_bottom_it_sets_the_vertical_scroll_position_to_the_maximum_height_of_the_document_body_effectively_moving_the_view_to_the_bottom_of_the_page.js
+            - name: I should wait for 1 second
+              uses:
+                module: run_instructions
+                args:
+                  instructions: wait 1 sec
+      - name: 'Create Module - login_Lambdatest with secrets&variable '
+        description: ''
+        uses:
+          module: create_module
+          args:
+            - name: I should go to 'lambdatest.com'
+              uses:
+                module: run_instructions
+                args:
+                  instructions: go to lambdatest.com
+            - name: >-
+                The instruction is to click on the 'Login' button, which is a
+                click operation. The 'Login' button is visible in the top right
+                corner of the screen.
+              uses:
+                module: run_instructions
+                args:
+                  instructions: click on login
+            - name: >-
+                The instruction is to enter 'sireesha@lambdatest.com' in the
+                email field, which is a type operation. The email input field is
+                visible in the viewport.
+              uses:
+                module: run_instructions
+                args:
+                  instructions: enter sireesha@lambdatest.com in email field
+            - name: >-
+                The instruction is to enter {{secrets.user.lambdatest_password}}
+                in the password field, which is a type operation. As there is no
+                previous operation to enter {{secrets.user.lambdatest_password}}
+                in the password field, so will perform the type operation.
+              uses:
+                module: run_instructions
+                args:
+                  instructions: enter {{secrets.user.lambdatest_password}} in password filed
+            - name: The instruction is to get the visibility of login button
+              uses:
+                module: run_instructions
+                args:
+                  instructions: >-
+                    if login available click on it else verify the failed to
+                    login
+            - name: >-
+                The instruction is to get the visibility of 'realdevice' I
+                should assert 'realdevice' is displayed
+              uses:
+                module: run_instructions
+                args:
+                  instructions: assert  that realdevice is displayed
+      - name: I should open 'lambdatest.com'
+        uses:
+          module: run_instructions
+          args:
+            instructions: open lambdatest.com
+      - name: The instruction is to get the visibility of 'book a demo' button
+        uses:
+          module: run_instructions
+          args:
+            instructions: 'if booka demo is present click on it '
+      - name: >-
+          The instruction is to type  in the phone number input
+          field, which is a type operation. As there is no previous operation to
+          type  in the phone number input field, so will perform
+          the type operation.
+        uses:
+          module: run_instructions
+          args:
+            instructions: enter  in phone number input field
+      - name: >-
+          I should open
+          https://kaneai.lambdatest.com/projects/01JQPV0PY321B5J105MYQWFAVM/test-cases/01JQTWAZMYD7HF65901ZR34M0X?auteurTestCaseId=98f0e16f-749d-4666-9e01-96e7454f1e58
+        uses:
+          module: run_instructions
+          args:
+            instructions: >-
+              open
+              https://kaneai.lambdatest.com/projects/01JQPV0PY321B5J105MYQWFAVM/test-cases/01JQTWAZMYD7HF65901ZR34M0X?auteurTestCaseId=98f0e16f-749d-4666-9e01-96e7454f1e58
+      - name: I should open https://selectorshub.com/xpath-practice-page/
+        uses:
+          module: run_instructions
+          args:
+            instructions: open https://selectorshub.com/xpath-practice-page/
+      - name: submit button
+        uses:
+          module: run_instructions
+          args:
+            instructions: hover on submit button
+      - name: >-
+          The code defines the output of the api with request: {'url':
+          'https://ifconfig.io/ip', 'method': 'GET', 'headers': {'User-Agent':
+          'Mozilla/5.0'}, 'params': {}, 'body': '', 'timeout': 5000, 'settings':
+          {'automatically_follow_redirect': True}, 'verify': False}
+        uses:
+          module: call_api
+          args:
+            var_id: api_variable5420
+            url: https://ifconfig.io/ip
+            method: GET
+            timeout: 5000
+            verify: false
+            headers:
+              - name: User-Agent
+                value: Mozilla/5.0
+            settings:
+              - name: automatically_follow_redirect
+                value: true
+      - name: >-
+          This operation was performed by the user This operation was performed
+          by the user This operation was performed by the user
+        uses:
+          module: run_instructions
+          args:
+            instructions: Scroll document
+      - name: I should go to 'https://the-internet.herokuapp.com/upload'
+        uses:
+          module: run_instructions
+          args:
+            instructions: go to https://the-internet.herokuapp.com/upload
+      - name: >-
+          The instruction is to upload the file
+          '/home/kaneai/Downloads/rtaImage.jpeg' in the choose file input field,
+          which is an upload operation. The input field for choosing the file is
+          visible in the viewport.
+        uses:
+          module: run_instructions
+          args:
+            instructions: upload {{FILE_rtaImage_jpeg}} in choose file
+      - name: I should wait for 1 second
+        uses:
+          module: run_instructions
+          args:
+            instructions: wait 1 sec
+      - name: >-
+          The code defines several constants including a button visibility
+          status, an API response object, file paths, and a time string. It then
+          creates a new Date object and returns the current local time as a
+          string.
+        uses:
+          module: execute_js
+          args:
+            var_id: hello_world
+            script: >-
+              the_code_defines_several_constants_including_a_button_visibility_status_an_api_response_object_file_paths_and_a_time_string_it_then_creates_a_new_date_object_and_returns_the_current_local_time_as_a_string.js
+      - name: Import Module - testing js&api
+        uses:
+          module: import_module
+          args:
+            name: testing js&api
+      - name: 'Import Module - login_Lambdatest with secrets&variable '
+        uses:
+          module: import_module
+          args:
+            name: 'login_Lambdatest with secrets&variable '
+      - name: I should wait for 2 seconds
+        uses:
+          module: run_instructions
+          args:
+            instructions: wait 2 sec
